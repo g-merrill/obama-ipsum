@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vmin;
+}
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2% 0;
+}
+.input-box {
+    border: 0.5vmin solid goldenrod;
+    text-align: center;
+    border-radius: 1vmin;
+    padding: 1vmin;
+    background-color: goldenrod;
+    color: white;
+    font-size: 100%;
+}
+.input-box::placeholder {
+    color: white;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.fa-angle-double-right {
+    color: goldenrod;
+    margin: 0 5vmin;
+}
+.obama-img {
+    width: 25vmin;
+    border: 1vmin solid goldenrod;
+    border-radius: 3vmin;
+}
+.output-paragraphs {
+    margin: 5% 0 0;
+    width: 80%;
+    text-align: justify;
+    background-color: goldenrod;
+    color: white;
+    padding: 5vmin 5vmin 2.5vmin;
+    border-radius: 2vmin;
+}
